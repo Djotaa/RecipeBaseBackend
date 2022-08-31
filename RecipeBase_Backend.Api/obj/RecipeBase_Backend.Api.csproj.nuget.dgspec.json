@@ -1,0 +1,373 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Api\\RecipeBase_Backend.Api.csproj": {}
+  },
+  "projects": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "projectName": "RecipeBase_Backend.DataAccess",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "projectName": "RecipeBase_Backend.Domain",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Api\\RecipeBase_Backend.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Api\\RecipeBase_Backend.Api.csproj",
+        "projectName": "RecipeBase_Backend.Api",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Api\\RecipeBase_Backend.Api.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
+              },
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              },
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
+              },
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "projectName": "RecipeBase_Backend.Application",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "projectName": "RecipeBase_Backend.Implementation",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
+              },
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              },
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Mapster": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

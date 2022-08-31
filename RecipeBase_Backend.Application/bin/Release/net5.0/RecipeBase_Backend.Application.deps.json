@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RecipeBase_Backend.Application/1.0.0": {
+        "dependencies": {
+          "RecipeBase_Backend.Domain": "1.0.0"
+        },
+        "runtime": {
+          "RecipeBase_Backend.Application.dll": {}
+        }
+      },
+      "RecipeBase_Backend.Domain/1.0.0": {
+        "runtime": {
+          "RecipeBase_Backend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecipeBase_Backend.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RecipeBase_Backend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

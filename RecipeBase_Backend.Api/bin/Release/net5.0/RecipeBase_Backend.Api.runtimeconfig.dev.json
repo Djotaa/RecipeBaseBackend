@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Djord\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Djord\\.nuget\\packages"
+    ]
+  }
+}

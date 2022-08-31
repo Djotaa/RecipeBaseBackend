@@ -1,0 +1,12 @@
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\bin\Release\net5.0\RecipeBase_Backend.Domain.deps.json
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\bin\Release\net5.0\RecipeBase_Backend.Domain.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\bin\Release\net5.0\RecipeBase_Backend.Domain.pdb
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.csproj.AssemblyReference.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.AssemblyInfoInputs.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.AssemblyInfo.cs
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.csproj.CoreCompileInputs.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\refint\RecipeBase_Backend.Domain.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\RecipeBase_Backend.Domain.pdb
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBaseBackend.Domain\obj\Release\net5.0\ref\RecipeBase_Backend.Domain.dll
