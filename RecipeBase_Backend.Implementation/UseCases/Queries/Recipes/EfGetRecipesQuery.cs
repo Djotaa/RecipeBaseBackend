@@ -47,7 +47,9 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries.Recipes
                     Id = x.Id,
                     Category = x.Category.Name,
                     Ingredients = x.Ingredients.Where(y=>y.IsActive).Select(i=> i.Value).ToList(),
-                    Directions = x.Directions.Where(z => z.IsActive).OrderBy(y=>y.StepNumber).Select(d=>d.Step).ToList()
+                    Directions = x.Directions.Where(z => z.IsActive).OrderBy(y=>y.StepNumber).Select(d=>d.Step).ToList(),
+                    CategoryId = x.CategoryId,
+                    CreatedAt = x.CreatedAt
                 };
             return recipe;
             });

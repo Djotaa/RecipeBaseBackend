@@ -12,9 +12,11 @@ namespace RecipeBase_Backend.Application.UseCases.DTO
         public string PrepTime { get; set; }
         public string Image { get; set; }
         public string Author { get; set; }
+        public int CategoryId { get; set; }
         public string Category { get; set; }
         public List<string> Directions { get; set; }
         public List<string> Ingredients { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 
     public class CreateRecipeDto

@@ -5,6 +5,7 @@ using RecipeBase_Backend.DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,7 +39,9 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries.Recipes
                 Id = recipe.Id,
                 Category = recipe.Category.Name,
                 Ingredients = recipe.Ingredients.Where(y => y.IsActive).Select(i => i.Value).ToList(),
-                Directions = recipe.Directions.Where(z => z.IsActive).OrderBy(y => y.StepNumber).Select(d => d.Step).ToList()
+                Directions = recipe.Directions.Where(z => z.IsActive).OrderBy(y => y.StepNumber).Select(d => d.Step).ToList(),
+                CreatedAt = recipe.CreatedAt,
+                CategoryId = recipe.CategoryId
             };
 
             return recipeDto;
