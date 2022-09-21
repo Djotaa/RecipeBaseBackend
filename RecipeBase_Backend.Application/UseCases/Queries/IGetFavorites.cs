@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RecipeBase_Backend.Application.UseCases.Queries
 {
-    public interface IGetFavoritesQuery : IQuery<PagedSearch, PagedResponse<RecipeDto>>
+    public interface IGetFavoritesQuery : IQuery<PagedSearch, PagedResponse<RecipeBlockDto>>
     {
 
     }

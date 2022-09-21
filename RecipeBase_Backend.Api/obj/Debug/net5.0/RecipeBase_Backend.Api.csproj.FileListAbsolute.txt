@@ -71,3 +71,6 @@ E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\Recipe
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\FluentValidation.dll
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\Mapster.dll
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\Mapster.Core.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Api\bin\Debug\net5.0\System.IO.Pipelines.dll

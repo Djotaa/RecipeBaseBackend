@@ -19,4 +19,8 @@
     <ProjectReference Include="..\RecipeBase_Backend.Implementation\RecipeBase_Backend.Implementation.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
 </Project>

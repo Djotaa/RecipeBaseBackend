@@ -15,6 +15,6 @@ namespace RecipeBase_Backend.Api.Core
     {
         public string Username => "(guest)";
         public int Id => 0;
-        public ICollection<int> UseCaseIds => new List<int> { 1, 2, 3, 4 };
+        public ICollection<int> UseCaseIds => new List<int> { 1, 2, 3, 4, 7, 23 };
     }
 }

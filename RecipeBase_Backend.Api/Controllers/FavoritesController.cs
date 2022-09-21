@@ -24,7 +24,6 @@ namespace RecipeBase_Backend.Api.Controllers
         [HttpGet]
         public IActionResult Get([FromQuery] PagedSearch request, [FromServices] IGetFavoritesQuery query)
         {
-            //request.Username = username;
             return Ok(handler.Handle(query, request));
         }
 

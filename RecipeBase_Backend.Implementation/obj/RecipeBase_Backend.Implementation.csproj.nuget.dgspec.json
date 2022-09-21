@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {}
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {}
   },
   "projects": {
-    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
         "projectName": "RecipeBase_Backend.DataAccess",
-        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
-        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\obj\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
         "projectName": "RecipeBase_Backend.Domain",
-        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
         "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
-        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\obj\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,14 +138,14 @@
         }
       }
     },
-    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
         "projectName": "RecipeBase_Backend.Application",
-        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
         "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
-        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\obj\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -162,8 +162,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               }
             }
           }
@@ -177,6 +177,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -197,14 +203,14 @@
         }
       }
     },
-    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
         "projectName": "RecipeBase_Backend.Implementation",
-        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
         "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
-        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Implementation\\obj\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -221,14 +227,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
-                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
               },
-              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               },
-              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
-                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
               }
             }
           }

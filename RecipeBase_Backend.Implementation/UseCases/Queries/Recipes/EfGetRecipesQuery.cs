@@ -23,7 +23,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries.Recipes
 
         public string Description => "Get all recipes using EF";
 
-        public PagedResponse<RecipeDto> Execute(PagedSearch request)
+        public PagedResponse<RecipeBlockDto> Execute(PagedSearch request)
         {
             var keyword = request.Keyword;
 
@@ -38,23 +38,19 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries.Recipes
 
             var recipes = queryResponse.Select(x =>
             {
-                var recipe = new RecipeDto
+                var recipe = new RecipeBlockDto
                 {
-                    Author = x.Author.Username,
                     Image = x.Image.Path,
                     Title = x.Title,
-                    PrepTime = x.PrepTime,
                     Id = x.Id,
                     Category = x.Category.Name,
-                    Ingredients = x.Ingredients.Where(y=>y.IsActive).Select(i=> i.Value).ToList(),
-                    Directions = x.Directions.Where(z => z.IsActive).OrderBy(y=>y.StepNumber).Select(d=>d.Step).ToList(),
                     CategoryId = x.CategoryId,
                     CreatedAt = x.CreatedAt
                 };
             return recipe;
             });
 
-            var response = new PagedResponse<RecipeDto>(request, count);
+            var response = new PagedResponse<RecipeBlockDto>(request, count);
             response.Items = recipes;
 
             return response;

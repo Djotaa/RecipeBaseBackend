@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVC9Bi6NuJOwcqBUmNSU3nBLay9MyXQRobNyT3riBJCxOvlGZN35K4uBNcDCx1j0PRc/h5+cZ+7HyhBu5t6Bcw==",
+  "dgSpecHash": "KJbfUxy4b53iCMiekpbsery5302Z5smIFeZgnFTEDUSdQep4DD0a1Xw4M1y+JNZmwSR6/eYQIAVmLecgjMUHEQ==",
   "success": true,
-  "projectFilePath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+  "projectFilePath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Djord\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Djord\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

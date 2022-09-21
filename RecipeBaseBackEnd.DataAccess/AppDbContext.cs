@@ -70,6 +70,7 @@ namespace RecipeBase_Backend.DataAccess
         public DbSet<Ingredient> Ingredients { get; set; }
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
+        public DbSet<Message> Messages { get; set; }
 
         public DbSet<UseCase> UseCases{ get; set; }
         public DbSet<AuditLog> AuditLogs { get; set; }

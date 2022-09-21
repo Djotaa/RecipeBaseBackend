@@ -115,6 +115,7 @@ namespace RecipeBase_Backend.Api.Extensions
             services.AddTransient<IUpdateUser, EfUpdateUser>();
             services.AddTransient<IGetUsersQuery, EfGetUsersQuery>();
             services.AddTransient<IGetUserQuery, EfGetUserQuery>();
+            services.AddTransient<IGetUserRecipesQuery, EfGetUserRecipesQuery>();
 
             services.AddTransient<IGetRecipesQuery, EfGetRecipesQuery>();
             services.AddTransient<IGetRecipeQuery, EfGetRecipeQuery>();
@@ -135,13 +136,18 @@ namespace RecipeBase_Backend.Api.Extensions
             services.AddTransient<IRemoveFavorite, EfRemoveFavorite>();
 
 
+            services.AddTransient<IGetMessagesQuery, EfGetMessagesQuery>();
+            services.AddTransient<ISendMessage, EfSendMessage>();
+
+
 
             #region Validators
             services.AddTransient<RegisterUserValidator>();
             services.AddTransient<UserValidator>();
             services.AddTransient<CategoryValidator>();
             services.AddTransient<RecipeValidator>();
-            services.AddTransient<DirectionValidator>();
+            //services.AddTransient<DirectionValidator>();
+            services.AddTransient<MessageValidator>();
             #endregion
         }
     }

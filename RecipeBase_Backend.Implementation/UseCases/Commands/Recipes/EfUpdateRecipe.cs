@@ -7,6 +7,7 @@ using RecipeBase_Backend.Domain;
 using RecipeBase_Backend.Implementation.Validators;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
 
         public string Description => "Users can update their recipes";
 
-        public void Execute(UpdateRecipeDto request)
+        public void Execute(UpdateRecipeDtoWithImage request)
         {
             validator.ValidateAndThrow(request);
 
@@ -40,16 +41,32 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
             if (recipe.AuthorId != DbContext.AppUser.Id)
                 throw new UseCaseConflictException("Users can only update their own recipes.");
 
+            if (request.Image != null)
+            {
+                List<string> AllowedImageExtensions = new List<string> { ".jpg", ".png", ".jpeg" };
+                var guid = Guid.NewGuid().ToString();
+                var extension = Path.GetExtension(request.Image.FileName);
+                if (!AllowedImageExtensions.Contains(extension.ToLower()))
+                {
+                    throw new UseCaseConflictException("Unsupported file type.");
+                }
+                var fileName = guid + extension;
+                var filePath = Path.Combine("wwwroot", "images", fileName);
+                using var stream = new FileStream(filePath, FileMode.Create);
+                request.Image.CopyTo(stream);
+
+                recipe.Image = new Image { Path = fileName };
+            }
+
             recipe.Title = request.Title;
             recipe.PrepTime = request.PrepTime;
             recipe.CategoryId = request.CategoryId;
-            recipe.Image.Path = request.Image;
             DbContext.Ingredients.RemoveRange(recipe.Ingredients);
             DbContext.Directions.RemoveRange(recipe.Directions);
-            recipe.Directions = request.Directions.Select(d => new Direction
+            recipe.Directions = request.Directions.Select((d,i) => new Direction
             {
-                Step = d.Step,
-                StepNumber = d.StepNumber
+                Step = d,
+                StepNumber = i+1
             }).ToList();
             recipe.Ingredients = request.Ingredients.Select(x => new Ingredient
             {

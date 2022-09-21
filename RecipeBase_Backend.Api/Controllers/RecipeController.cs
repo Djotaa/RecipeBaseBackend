@@ -35,12 +35,18 @@ namespace RecipeBase_Backend.Api.Controllers
         public IActionResult Get(int id, [FromServices] IGetRecipeQuery query)
         {
             return Ok(this.handler.Handle(query, id));
+        }
 
+        [Route("[action]", Name = "UserRecipes")]
+        [HttpGet]
+        public IActionResult UserRecipes([FromQuery] PagedSearch request, [FromServices] IGetUserRecipesQuery query)
+        {
+            return Ok(this.handler.Handle(query, request));
         }
 
         // POST api/<RecipeController>
         [HttpPost]
-        public IActionResult Post([FromBody] CreateRecipeDto request, [FromServices] ICreateRecipe command)
+        public IActionResult Post([FromForm] CreateRecipeDtoWithImage request, [FromServices] ICreateRecipe command)
         {
             this.handler.Handle(command, request);
 
@@ -49,7 +55,7 @@ namespace RecipeBase_Backend.Api.Controllers
 
         // PUT api/<RecipeController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] UpdateRecipeDto request, [FromServices] IUpdateRecipe command)
+        public IActionResult Put(int id, [FromForm] UpdateRecipeDtoWithImage request, [FromServices] IUpdateRecipe command)
         {
             request.Id = id;
             handler.Handle(command, request);

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Z0fhL5AwfYp7iSpupr8IkjZlDhOv74ATqewacpBM6uzcAe4qdV/+jfK7Ee7UWkIgQfVIkeFIMFVBiKljNhvBGw==",
+  "dgSpecHash": "U3IKWnyXstHJb2JdogFxBnAZ6YRs4P4eSCPOG4L3GaQFN7hxZOfR9M44LNzn2RFpM7EAsVQ/KCkm+lzg4Wc4Yg==",
   "success": true,
-  "projectFilePath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Djord\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Djord\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Djord\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

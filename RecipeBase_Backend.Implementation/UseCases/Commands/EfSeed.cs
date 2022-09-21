@@ -72,7 +72,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
                 new Image { Path = "potato_salad.jfif"},
                 new Image { Path = "marinated_cucumber,_onion,_and_tomato_salad.jfif"},
                 new Image { Path = "awesome_pasta_salad.jfif"},
-                new Image { Path = "mom's_potato_salad.png"},
+                new Image { Path = "mom's_cucumber_salad.png"},
                 new Image { Path = "best_brownies.jfif"},
                 new Image { Path = "best_chocolate_chip_cookies.jfif"},
                 new Image { Path = "edible_cookie_dough.jfif"},
@@ -759,9 +759,9 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
                         new Direction{StepNumber = 6, Step = "If the dough is still cool, you can continue with another fold.Otherwise, wrap it in plastic and refrigerate for 45 minutes to 1 hour.Remove the dough from the refrigerator and let it warm up for about 10 minutes before you begin rolling it out again." },
                         new Direction{StepNumber = 7, Step = "Position the dough so that the open ends are at 12 and 6 o'clock. Roll the dough into a rectangle, working from the center of the dough and pressing outwards. Reposition the dough as necessary to fit your work space. You should have a long rectangle for the 'book fold.' Fold both ends of the dough into the middle; the ends don't have to be touching, but should be close.Fold the already - folded dough in half; it will look like a thick book.Wrap the dough well with plastic and refrigerate for 1 to 2 hours." },
                         new Direction{StepNumber = 8, Step = "Remove the dough from the refrigerator and let it rest at room temperature for about 20 minutes.Roll the dough into a rectangle again and fold it into thirds, like a business letter.Wrap it in plastic and refrigerate for 4 - 6 hours or overnight." },
-                        new Direction{StepNumber = 9, Step = "To shape the croissants, roll the dough into a 10 - by 38 - inch rectangle on a lightly floured work surface.It should be about 1 / 4 inch thick.Use a pizza wheel or sharp paring knife to trim the edges of the dough.Divide the rectangle in half so that you have two 5 - inch wide strips of dough.Use a clean yardstick to mark each strip into triangles that are 5 inches wide at their bases.Cut the triangles and place them onto parchment - lined baking sheets.Chill for 15 to 20 minutes, if necessary. 1" },
-                        new Direction{StepNumber = 10, Step = "Starting at the base of the triangle, roll the dough up into a log; the tip of the triangle should be under the body of the croissant to prevent it from unraveling.Bend in the corners to form the traditional crescent shape.Repeat with the remaining dough. 1" },
-                        new Direction{StepNumber = 11, Step = "Arrange the croissants on the parchment - lined baking sheets and allow to rise until doubled in size, about 1 to 2 hours. 1" },
+                        new Direction{StepNumber = 9, Step = "To shape the croissants, roll the dough into a 10 - by 38 - inch rectangle on a lightly floured work surface.It should be about 1 / 4 inch thick.Use a pizza wheel or sharp paring knife to trim the edges of the dough.Divide the rectangle in half so that you have two 5 - inch wide strips of dough.Use a clean yardstick to mark each strip into triangles that are 5 inches wide at their bases.Cut the triangles and place them onto parchment - lined baking sheets.Chill for 15 to 20 minutes, if necessary." },
+                        new Direction{StepNumber = 10, Step = "Starting at the base of the triangle, roll the dough up into a log; the tip of the triangle should be under the body of the croissant to prevent it from unraveling.Bend in the corners to form the traditional crescent shape.Repeat with the remaining dough." },
+                        new Direction{StepNumber = 11, Step = "Arrange the croissants on the parchment - lined baking sheets and allow to rise until doubled in size, about 1 to 2 hours." },
                         new Direction{StepNumber = 12, Step = "Preheat an oven to 425 degrees F(220 degrees C). Beat the egg with the tablespoon of water to make the egg wash.Brush the croissants with egg wash and bake in the preheated oven until deep brown, 22 to 25 minutes.Cool on a rack before serving." }
                     }
                 }
@@ -779,14 +779,14 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
 
             };
 
-            for(int i = 1; i <= 20; i++)
+            for(int i = 1; i <= 22; i++)
             {
                 useCases.Add(new UseCase { User = users.ElementAt(2), UseCaseId = i });
             }
 
-            var useCaseIds = new List<int> { 1, 2, 3, 4 };
+            var useCaseIds = new List<int> { 1, 2, 3, 4, 7, 23 };
 
-            for (int i = 15; i <= 20; i++) 
+            for (int i = 15; i <= 21; i++) 
                 useCaseIds.Add(i);
 
             foreach (var id in useCaseIds) 

@@ -25,7 +25,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries
 
         public string Description => "Ef get Favorites of user by his username";
 
-        public PagedResponse<RecipeDto> Execute(PagedSearch request)
+        public PagedResponse<RecipeBlockDto> Execute(PagedSearch request)
         {
             var keyword = request.Keyword;
 
@@ -39,24 +39,22 @@ namespace RecipeBase_Backend.Implementation.UseCases.Queries
             if (!String.IsNullOrWhiteSpace(keyword))
                 query = query.Where(x => x.Favorites.Any(f=>f.Recipe.Title.ToLower().Contains(keyword.ToLower())));
 
-            var count = user.Favorites.Count();
+            var count = user.Favorites.Where(x=>x.Recipe.IsActive).Count();
 
-            var queryResponse = user.Favorites.Skip((request.PageNo - 1) * request.PerPage).Take(request.PerPage).ToList();
+            var queryResponse = user.Favorites.Where(x => x.Recipe.IsActive).Skip((request.PageNo - 1) * request.PerPage).Take(request.PerPage).ToList();
 
 
-            var favorites = user.Favorites.Select(x => new RecipeDto
-            {
-                Author = x.Recipe.Author.Username,
-                Image = x.Recipe.Image.Path,
-                Title = x.Recipe.Title,
-                PrepTime = x.Recipe.PrepTime,
-                Id = x.Recipe.Id,
-                Category = x.Recipe.Category.Name,
-                Ingredients = x.Recipe.Ingredients.Select(i => i.Value).ToList(),
-                Directions = x.Recipe.Directions.OrderBy(y => y.StepNumber).Select(d => d.Step).ToList()
-            }).ToList();
+            var favorites = queryResponse.Select(x => new RecipeBlockDto
+                {
+                    Image = x.Recipe.Image.Path,
+                    Title = x.Recipe.Title,
+                    Id = x.Recipe.Id,
+                    Category = x.Recipe.Category.Name,
+                    CategoryId = x.Recipe.CategoryId,
+                    CreatedAt = x.Recipe.CreatedAt
+                }).ToList();
 
-            var response = new PagedResponse<RecipeDto>(request, count);
+            var response = new PagedResponse<RecipeBlockDto>(request, count);
             response.Items = favorites;
 
             return response;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RecipeBase_Backend.Application.UseCases.Commands.Recipes
 {
-    public interface ICreateRecipe : ICommand<CreateRecipeDto>
+    public interface ICreateRecipe : ICommand<CreateRecipeDtoWithImage>
     {
     }
 }

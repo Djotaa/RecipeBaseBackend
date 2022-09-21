@@ -54,7 +54,7 @@ namespace RecipeBase_Backend.Api
 
             services.AddCors(options =>
             {
-                options.AddPolicy(name: "AllowOrigin", builder => { builder.AllowAnyOrigin().AllowAnyHeader(); });
+                options.AddPolicy(name: "AllowOrigin", builder => { builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
             });
 
             services.AddControllers();
@@ -73,6 +73,8 @@ namespace RecipeBase_Backend.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RecipeBase_Backend.Api v1"));
             }
+
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 

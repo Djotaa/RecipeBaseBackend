@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RecipeBase_Backend.Application.UseCases.Commands.Recipes
 {
-    public interface IUpdateRecipe : ICommand<UpdateRecipeDto>
+    public interface IUpdateRecipe : ICommand<UpdateRecipeDtoWithImage>
     {
     }
 }

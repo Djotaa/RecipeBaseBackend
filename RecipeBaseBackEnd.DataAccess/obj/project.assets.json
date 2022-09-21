@@ -7740,11 +7740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+      "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
       "projectName": "RecipeBase_Backend.DataAccess",
-      "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+      "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
-      "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackEnd.DataAccess\\obj\\",
+      "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7761,8 +7761,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-              "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBaseBackend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+            "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+              "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
             }
           }
         }

@@ -30,6 +30,9 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Favorites
             if (!DbContext.Recipes.Any(x => x.IsActive && x.Id == recipeId))
                 throw new EntityNotFoundException();
 
+            if (DbContext.Favorites.Any(x => x.UserId == userId && x.RecipeId == recipeId))
+                throw new UseCaseConflictException("Recipe is already in users favorites.");
+
             DbContext.Favorites.Add(new Favorite { RecipeId = recipeId, UserId = userId });
             DbContext.SaveChanges();
         }

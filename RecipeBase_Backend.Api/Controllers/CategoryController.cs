@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RecipeBase_Backend.Application.UseCases.Commands.Categories;
 using RecipeBase_Backend.Application.UseCases.DTO;
 using RecipeBase_Backend.Application.UseCases.DTO.Searches;
@@ -22,6 +23,7 @@ namespace RecipeBase_Backend.Api.Controllers
 
         // GET: api/<CategoryController>
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Get([FromQuery] PagedSearch request, [FromServices] IGetCategoriesQuery query)
         {
             return Ok(this.handler.Handle(query, request));
