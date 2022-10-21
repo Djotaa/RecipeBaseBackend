@@ -17,3 +17,22 @@ E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\Recipe
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\refint\RecipeBase_Backend.Implementation.dll
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.pdb
 E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBaseBackend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\ref\RecipeBase_Backend.Implementation.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Implementation.deps.json
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Implementation.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Implementation.pdb
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Application.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Domain.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.pdb
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Domain.pdb
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\bin\Debug\net5.0\RecipeBase_Backend.Application.pdb
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.AssemblyInfoInputs.cache
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.AssemblyInfo.cs
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\refint\RecipeBase_Backend.Implementation.dll
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\RecipeBase_Backend.Implementation.pdb
+C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBase_Backend.Implementation\obj\Debug\net5.0\ref\RecipeBase_Backend.Implementation.dll

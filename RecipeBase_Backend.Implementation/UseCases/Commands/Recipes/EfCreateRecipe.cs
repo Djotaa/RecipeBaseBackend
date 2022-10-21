@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using RecipeBase_Backend.Application.Exceptions;
+using RecipeBase_Backend.Application.Services;
 using RecipeBase_Backend.Application.UseCases.Commands.Recipes;
 using RecipeBase_Backend.Application.UseCases.DTO;
 using RecipeBase_Backend.DataAccess;
@@ -9,17 +10,17 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
 {
     public class EfCreateRecipe : EfUseCase, ICreateRecipe
     {
         public RecipeValidator validator;
-        public EfCreateRecipe(AppDbContext context, RecipeValidator validator) : base(context)
+        private IUploadService uploadService;
+        public EfCreateRecipe(AppDbContext context, RecipeValidator validator, IUploadService uploadService) : base(context)
         {
             this.validator = validator;
+            this.uploadService = uploadService;
         }
 
         public int Id => 18;
@@ -46,9 +47,13 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
                 throw new UseCaseConflictException("Unsupported file type.");
             }
             var fileName = guid + extension;
-            var filePath = Path.Combine("wwwroot", "images", fileName);
-            using var stream = new FileStream(filePath, FileMode.Create);
-            request.Image.CopyTo(stream);
+            var contentType = request.Image.ContentType;
+
+            //var filePath = Path.Combine("wwwroot", "images", fileName);
+            //using var stream = new FileStream(filePath, FileMode.Create);
+            //request.Image.CopyTo(stream);
+
+            var filePath = uploadService.Upload(request.Image.OpenReadStream(), fileName, contentType);
 
             var recipe = new Recipe
             {
@@ -59,7 +64,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
                 {
                     Value = x
                 }).ToList(),
-                Image = new Image { Path = fileName },
+                Image = new Image { Path = filePath },
                 Directions = request.Directions.Select( (d,i)  => new Direction
                 {
                     Step = d,

@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using RecipeBase_Backend.Api.Core;
+using RecipeBase_Backend.Application.Services;
 using RecipeBase_Backend.Application.UseCases.Commands;
 using RecipeBase_Backend.Application.UseCases.Commands.Categories;
 using RecipeBase_Backend.Application.UseCases.Commands.Favorites;
@@ -18,6 +19,7 @@ using RecipeBase_Backend.Application.UseCases.Queries.Recipes;
 using RecipeBase_Backend.Application.UseCases.Queries.Users;
 using RecipeBase_Backend.DataAccess;
 using RecipeBase_Backend.Domain;
+using RecipeBase_Backend.Implementation.Services;
 using RecipeBase_Backend.Implementation.UseCases.Commands;
 using RecipeBase_Backend.Implementation.UseCases.Commands.Categories;
 using RecipeBase_Backend.Implementation.UseCases.Commands.Favorites;
@@ -138,6 +140,9 @@ namespace RecipeBase_Backend.Api.Extensions
 
             services.AddTransient<IGetMessagesQuery, EfGetMessagesQuery>();
             services.AddTransient<ISendMessage, EfSendMessage>();
+            services.AddTransient<IDeleteMessage, EfDeleteMessage>();
+
+            services.AddScoped<IUploadService, UploadService>();
 
 
 

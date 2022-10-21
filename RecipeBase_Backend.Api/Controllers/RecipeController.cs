@@ -5,6 +5,7 @@ using RecipeBase_Backend.Application.UseCases.DTO;
 using RecipeBase_Backend.Application.UseCases.DTO.Searches;
 using RecipeBase_Backend.Application.UseCases.Queries.Recipes;
 using RecipeBase_Backend.Implementation;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 

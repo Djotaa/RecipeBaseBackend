@@ -767,19 +767,12 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
                 }
             };
 
-            var favorites = new List<Favorite>
-            {
-                new Favorite{User = users.ElementAt(1), Recipe = recipes.ElementAt(6)},
-                new Favorite{User = users.ElementAt(1), Recipe = recipes.ElementAt(1)},
-                new Favorite{User = users.ElementAt(1), Recipe = recipes.ElementAt(30)}
-            };
-
             var useCases = new List<UseCase>
             {
 
             };
 
-            for(int i = 1; i <= 22; i++)
+            for(int i = 1; i <= 24; i++)
             {
                 useCases.Add(new UseCase { User = users.ElementAt(2), UseCaseId = i });
             }
@@ -799,7 +792,6 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
             this.DbContext.Images.AddRange(images);
             this.DbContext.Users.AddRange(users);
             this.DbContext.Recipes.AddRange(recipes);
-            this.DbContext.Favorites.AddRange(favorites);
             this.DbContext.UseCases.AddRange(useCases);
 
             this.DbContext.SaveChanges();

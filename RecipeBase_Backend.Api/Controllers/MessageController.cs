@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RecipeBase_Backend.Application.UseCases.Commands;
+using RecipeBase_Backend.Application.UseCases.Commands.Recipes;
 using RecipeBase_Backend.Application.UseCases.DTO;
 using RecipeBase_Backend.Application.UseCases.DTO.Searches;
 using RecipeBase_Backend.Application.UseCases.Queries;
@@ -36,6 +37,15 @@ namespace RecipeBase_Backend.Api.Controllers
             this.handler.Handle(command, dto);
 
             return StatusCode(201);
+        }
+
+        [HttpDelete]
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id, [FromServices] IDeleteMessage command)
+        {
+            this.handler.Handle(command, id);
+
+            return StatusCode(204);
         }
     }
 }

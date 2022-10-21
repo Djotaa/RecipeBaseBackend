@@ -172,7 +172,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Images](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
-	[Path] [nvarchar](100) NOT NULL,
+	[Path] [nvarchar](150) NOT NULL,
 	[IsActive] [bit] NOT NULL,
 	[CreatedAt] [datetime2](7) NOT NULL,
 	[DeletedAt] [datetime2](7) NULL,
@@ -558,75 +558,69 @@ INSERT [dbo].[Directions] ([Id], [Step], [StepNumber], [RecipeId], [IsActive], [
 GO
 SET IDENTITY_INSERT [dbo].[Directions] OFF
 GO
-INSERT [dbo].[Favorites] ([UserId], [RecipeId]) VALUES (1, 2)
-GO
-INSERT [dbo].[Favorites] ([UserId], [RecipeId]) VALUES (1, 19)
-GO
-INSERT [dbo].[Favorites] ([UserId], [RecipeId]) VALUES (1, 23)
-GO
 SET IDENTITY_INSERT [dbo].[Images] ON 
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (1, N'how_to_make_vanilla_ice_cream.png', 1, CAST(N'2022-09-21T19:06:18.4494155' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (1, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/how_to_make_vanilla_ice_cream.png', 1, CAST(N'2022-09-21T19:06:18.4494155' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (2, N'old-fashioned_lemonade.jfif', 1, CAST(N'2022-09-21T19:06:18.4494157' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (2, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/old-fashioned_lemonade.jfif', 1, CAST(N'2022-09-21T19:06:18.4494157' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (3, N'parker''s_famous_margaritas.jpg', 1, CAST(N'2022-09-21T19:06:18.4494160' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (3, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/parker''s_famous_margaritas.jpg', 1, CAST(N'2022-09-21T19:06:18.4494160' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (4, N'best_strawberry_daiquiri.jfif', 1, CAST(N'2022-09-21T19:06:18.4494162' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (4, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/best_strawberry_daiquiri.jfif', 1, CAST(N'2022-09-21T19:06:18.4494162' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (5, N'strawberry_mojito.jpg', 1, CAST(N'2022-09-21T19:06:18.4494164' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (5, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/strawberry_mojito.jpg', 1, CAST(N'2022-09-21T19:06:18.4494164' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (6, N'classic_old_fashioned.jfif', 1, CAST(N'2022-09-21T19:06:18.4494166' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (6, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/classic_old_fashioned.jfif', 1, CAST(N'2022-09-21T19:06:18.4494166' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (7, N'belle''s_hamburger_buns.jfif', 1, CAST(N'2022-09-21T19:06:18.4494176' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (7, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/belle''s_hamburger_buns.jfif', 1, CAST(N'2022-09-21T19:06:18.4494176' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (8, N'naan.jfif', 1, CAST(N'2022-09-21T19:06:18.4494171' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (8, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/naan.jfif', 1, CAST(N'2022-09-21T19:06:18.4494171' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (9, N'the_best_lemon_bars.jfif', 1, CAST(N'2022-09-21T19:06:18.4494153' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (9, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/the_best_lemon_bars.jfif', 1, CAST(N'2022-09-21T19:06:18.4494153' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (10, N'banana_chocolate_chip_bread.jfif', 1, CAST(N'2022-09-21T19:06:18.4494179' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (10, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/banana_chocolate_chip_bread.jfif', 1, CAST(N'2022-09-21T19:06:18.4494179' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (11, N'simple_whole_wheat_bread.jfif', 1, CAST(N'2022-09-21T19:06:18.4494181' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (11, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/simple_whole_wheat_bread.jfif', 1, CAST(N'2022-09-21T19:06:18.4494181' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (12, N'brioche.jfif', 1, CAST(N'2022-09-21T19:06:18.4494184' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (12, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/brioche.jfif', 1, CAST(N'2022-09-21T19:06:18.4494184' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (13, N'traditional_layered_french_croissant.jpg', 1, CAST(N'2022-09-21T19:06:18.4494187' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (13, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/traditional_layered_french_croissant.jpg', 1, CAST(N'2022-09-21T19:06:18.4494187' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (14, N'classic_bloody_mary.jfif', 1, CAST(N'2022-09-21T19:06:18.4494168' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (14, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/classic_bloody_mary.jfif', 1, CAST(N'2022-09-21T19:06:18.4494168' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (15, N'edible_cookie_dough.jfif', 1, CAST(N'2022-09-21T19:06:18.4494150' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (15, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/edible_cookie_dough.jfif', 1, CAST(N'2022-09-21T19:06:18.4494150' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (16, N'mom''s_cucumber_salad.png', 1, CAST(N'2022-09-21T19:06:18.4494143' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (16, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/mom''s_cucumber_salad.png', 1, CAST(N'2022-09-21T19:06:18.4494143' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (17, N'best_brownies.jfif', 1, CAST(N'2022-09-21T19:06:18.4494146' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (17, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/best_brownies.jfif', 1, CAST(N'2022-09-21T19:06:18.4494146' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (18, N'traditional_mexican_guacamole.jpg', 1, CAST(N'2022-09-21T19:06:18.4494108' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (18, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/traditional_mexican_guacamole.jpg', 1, CAST(N'2022-09-21T19:06:18.4494108' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (19, N'fully_loaded_deviled_eggs.jpg', 1, CAST(N'2022-09-21T19:06:18.4494112' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (19, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/fully_loaded_deviled_eggs.jpg', 1, CAST(N'2022-09-21T19:06:18.4494112' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (20, N'caprese_on_a_stick.jpg', 1, CAST(N'2022-09-21T19:06:18.4494115' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (20, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/caprese_on_a_stick.jpg', 1, CAST(N'2022-09-21T19:06:18.4494115' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (21, N'fried_mozzarela_cheese_sticks.jfif', 1, CAST(N'2022-09-21T19:06:18.4494118' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (21, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/fried_mozzarela_cheese_sticks.jfif', 1, CAST(N'2022-09-21T19:06:18.4494118' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (22, N'world''s_best_lasagna.jfif', 1, CAST(N'2022-09-21T19:06:18.4494121' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (22, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/world''s_best_lasagna.jfif', 1, CAST(N'2022-09-21T19:06:18.4494121' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (23, N'best_hamburger_ever.jfif', 1, CAST(N'2022-09-21T19:06:18.4494123' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (23, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/best_hamburger_ever.jfif', 1, CAST(N'2022-09-21T19:06:18.4494123' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (24, N'best_chocolate_chip_cookies.jfif', 1, CAST(N'2022-09-21T19:06:18.4494148' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (24, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/best_chocolate_chip_cookies.jfif', 1, CAST(N'2022-09-21T19:06:18.4494148' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (25, N'chicken_parmesan.jfif', 1, CAST(N'2022-09-21T19:06:18.4494126' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (25, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/chicken_parmesan.jfif', 1, CAST(N'2022-09-21T19:06:18.4494126' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (26, N'easy_fried_rice.jfif', 1, CAST(N'2022-09-21T19:06:18.4494131' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (26, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/easy_fried_rice.jfif', 1, CAST(N'2022-09-21T19:06:18.4494131' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (27, N'indian_chicken_curry_(murgh_ kari).jfif', 1, CAST(N'2022-09-21T19:06:18.4494134' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (27, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/indian_chicken_curry_(murgh_ kari).jfif', 1, CAST(N'2022-09-21T19:06:18.4494134' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (28, N'potato_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494136' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (28, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/potato_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494136' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (29, N'marinated_cucumber,_onion,_and_tomato_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494139' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (29, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/marinated_cucumber,_onion,_and_tomato_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494139' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (30, N'awesome_pasta_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494141' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (30, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/awesome_pasta_salad.jfif', 1, CAST(N'2022-09-21T19:06:18.4494141' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (31, N'easy_meatloaf.jfif', 1, CAST(N'2022-09-21T19:06:18.4494128' AS DateTime2), NULL, NULL, NULL, NULL)
+INSERT [dbo].[Images] ([Id], [Path], [IsActive], [CreatedAt], [DeletedAt], [DeletedBy], [UpdatedAt], [UpdatedBy]) VALUES (31, N'https://delightofficetest.blob.core.windows.net/marijanatest/recipebase/easy_meatloaf.jfif', 1, CAST(N'2022-09-21T19:06:18.4494128' AS DateTime2), NULL, NULL, NULL, NULL)
 GO
 SET IDENTITY_INSERT [dbo].[Images] OFF
 GO
@@ -1367,6 +1361,10 @@ GO
 INSERT [dbo].[UseCases] ([UserId], [UseCaseId]) VALUES (3, 21)
 GO
 INSERT [dbo].[UseCases] ([UserId], [UseCaseId]) VALUES (3, 22)
+GO
+INSERT [dbo].[UseCases] ([UserId], [UseCaseId]) VALUES (3, 23)
+GO
+INSERT [dbo].[UseCases] ([UserId], [UseCaseId]) VALUES (3, 24)
 GO
 SET IDENTITY_INSERT [dbo].[Users] ON 
 GO

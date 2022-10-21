@@ -1,5 +1,6 @@
 ﻿using FluentValidation;
 using RecipeBase_Backend.Application.Exceptions;
+using RecipeBase_Backend.Application.Services;
 using RecipeBase_Backend.Application.UseCases.Commands.Recipes;
 using RecipeBase_Backend.Application.UseCases.DTO;
 using RecipeBase_Backend.DataAccess;
@@ -9,18 +10,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
 {
     public class EfUpdateRecipe : EfUseCase, IUpdateRecipe
     {
         public RecipeValidator validator { get; set; }
+        private IUploadService uploadService;
 
-        public EfUpdateRecipe(AppDbContext context, RecipeValidator validator) : base(context)
+        public EfUpdateRecipe(AppDbContext context, RecipeValidator validator, IUploadService uploadService) : base(context)
         {
             this.validator = validator;
+            this.uploadService = uploadService;
         }
 
         public int Id => 20;
@@ -51,11 +52,14 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
                     throw new UseCaseConflictException("Unsupported file type.");
                 }
                 var fileName = guid + extension;
-                var filePath = Path.Combine("wwwroot", "images", fileName);
-                using var stream = new FileStream(filePath, FileMode.Create);
-                request.Image.CopyTo(stream);
+                var contentType = request.Image.ContentType;
+                //var filePath = Path.Combine("wwwroot", "images", fileName);
+                //using var stream = new FileStream(filePath, FileMode.Create);
+                //request.Image.CopyTo(stream);
 
-                recipe.Image = new Image { Path = fileName };
+                var filePath = uploadService.Upload(request.Image.OpenReadStream(), fileName, contentType);
+
+                recipe.Image = new Image { Path = filePath };
             }
 
             recipe.Title = request.Title;

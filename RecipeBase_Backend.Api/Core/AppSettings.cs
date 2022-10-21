@@ -4,5 +4,6 @@
     {
         public string ConnectionString { get; set; }
         public JwtSettings JwtConfig { get; set; }
+        public string AzureStorageString { get; set; }
     }
 }
