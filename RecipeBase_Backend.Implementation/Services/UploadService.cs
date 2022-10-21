@@ -27,7 +27,7 @@ namespace RecipeBase_Backend.Implementation.Services
             var createResponse = container.CreateIfNotExists();
 
             if(createResponse != null && createResponse.GetRawResponse().Status == 201)
-                container.SetAccessPolicyAsync(PublicAccessType.Blob);
+                container.SetAccessPolicy(PublicAccessType.Blob);
 
             var blob = container.GetBlobClient($"recipebase/{fileName}");
             blob.DeleteIfExists(DeleteSnapshotsOption.IncludeSnapshots);
