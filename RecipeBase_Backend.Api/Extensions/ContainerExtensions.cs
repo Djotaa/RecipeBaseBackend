@@ -142,7 +142,7 @@ namespace RecipeBase_Backend.Api.Extensions
             services.AddTransient<ISendMessage, EfSendMessage>();
             services.AddTransient<IDeleteMessage, EfDeleteMessage>();
 
-            services.AddScoped<IUploadService, UploadService>();
+            services.AddScoped<IAzureService, AzureService>();
 
 
 

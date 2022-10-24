@@ -16,12 +16,12 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
     public class EfUpdateRecipe : EfUseCase, IUpdateRecipe
     {
         public RecipeValidator validator { get; set; }
-        private IUploadService uploadService;
+        private IAzureService azureService;
 
-        public EfUpdateRecipe(AppDbContext context, RecipeValidator validator, IUploadService uploadService) : base(context)
+        public EfUpdateRecipe(AppDbContext context, RecipeValidator validator, IAzureService azureService) : base(context)
         {
             this.validator = validator;
-            this.uploadService = uploadService;
+            this.azureService = azureService;
         }
 
         public int Id => 20;
@@ -30,7 +30,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
 
         public string Description => "Users can update their recipes";
 
-        public void Execute(UpdateRecipeDtoWithImage request)
+        public async void Execute(UpdateRecipeDtoWithImage request)
         {
             validator.ValidateAndThrow(request);
 
@@ -57,8 +57,10 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
                 //using var stream = new FileStream(filePath, FileMode.Create);
                 //request.Image.CopyTo(stream);
 
-                var filePath = uploadService.Upload(request.Image.OpenReadStream(), fileName, contentType);
+                azureService.Delete(recipe.Image.Path.Split('/').Last());
 
+                var filePath = azureService.Upload(request.Image.OpenReadStream(), fileName, contentType);
+                
                 recipe.Image = new Image { Path = filePath };
             }
 

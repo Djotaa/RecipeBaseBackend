@@ -16,11 +16,11 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
     public class EfCreateRecipe : EfUseCase, ICreateRecipe
     {
         public RecipeValidator validator;
-        private IUploadService uploadService;
-        public EfCreateRecipe(AppDbContext context, RecipeValidator validator, IUploadService uploadService) : base(context)
+        private IAzureService azureService;
+        public EfCreateRecipe(AppDbContext context, RecipeValidator validator, IAzureService azureService) : base(context)
         {
             this.validator = validator;
-            this.uploadService = uploadService;
+            this.azureService = azureService;
         }
 
         public int Id => 18;
@@ -53,7 +53,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
             //using var stream = new FileStream(filePath, FileMode.Create);
             //request.Image.CopyTo(stream);
 
-            var filePath = uploadService.Upload(request.Image.OpenReadStream(), fileName, contentType);
+            var filePath = azureService.Upload(request.Image.OpenReadStream(), fileName, contentType);
 
             var recipe = new Recipe
             {
