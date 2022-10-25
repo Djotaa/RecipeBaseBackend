@@ -14,7 +14,7 @@ namespace RecipeBase_Backend.Implementation.Validators
         public CategoryValidator(AppDbContext dbContext)
         {
             RuleFor(x => x).Cascade(CascadeMode.Stop)
-                           .Must(x => !(x is UpdateCategoryDto) ? !dbContext.Categories.Any(c => c.Name == x.Name) : true).WithMessage("Category Name must be unique");
+                           .Must(x => x is UpdateCategoryDto ? !dbContext.Categories.Where(c => c.Id != x.Id).Any(y => y.Name == x.Name) : true).WithMessage("Category Name must be unique");
 
             RuleFor(x => x.Name).Cascade(CascadeMode.Stop)
                                 .NotEmpty().WithMessage("Category name is required.")

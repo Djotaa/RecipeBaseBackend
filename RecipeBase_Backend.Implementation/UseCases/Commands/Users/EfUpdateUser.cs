@@ -18,8 +18,8 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Users
 {
     public class EfUpdateUser : EfUseCase, IUpdateUser
     {
-        UserValidator validator;
-        public EfUpdateUser(AppDbContext context, UserValidator validator) : base(context)
+        UpdateUserValidator validator;
+        public EfUpdateUser(AppDbContext context, UpdateUserValidator validator) : base(context)
         {
             this.validator = validator;
         }
@@ -30,7 +30,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Users
 
         public string Description => "Update existing User";
 
-        public void Execute(UserDto request)
+        public void Execute(UpdateUserDto request)
         {
             this.validator.ValidateAndThrow(request);
 
@@ -39,14 +39,12 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Users
             if (user == null)
                 throw new EntityNotFoundException();
 
-            this.DbContext.UseCases.RemoveRange(user.UseCases);
+            if (user.Id != DbContext.AppUser.Id)
+                throw new UseCaseConflictException("Users can only update their own profile.");
+
             user.Username = request.Username;
             user.FullName = request.FullName;
-            user.Email = request.Email;
-            user.UseCases = request.UseCaseIds.Select(x => new UseCase
-            {
-                UseCaseId = x
-            }).ToList();            
+            user.Email = request.Email; 
 
             this.DbContext.SaveChanges();
         }

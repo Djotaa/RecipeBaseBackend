@@ -777,7 +777,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
                 useCases.Add(new UseCase { User = users.ElementAt(2), UseCaseId = i });
             }
 
-            var useCaseIds = new List<int> { 1, 2, 3, 4, 7, 23 };
+            var useCaseIds = new List<int> { 1, 2, 3, 4, 6, 7, 10, 23 };
 
             for (int i = 15; i <= 21; i++) 
                 useCaseIds.Add(i);

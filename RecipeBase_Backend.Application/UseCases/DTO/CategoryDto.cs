@@ -11,14 +11,13 @@ namespace RecipeBase_Backend.Application.UseCases.DTO
         public string Name { get; set; }
     }
 
-    public class CreateCategoryDto
+    public class CreateCategoryDto : BaseDto
     {
         public string Name { get; set; }
     }
 
     public class UpdateCategoryDto : CreateCategoryDto
     {
-        public int Id { get; set; }
     }
 
     public class CategoryDto : BaseCategoryDto

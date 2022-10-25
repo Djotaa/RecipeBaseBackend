@@ -20,6 +20,13 @@ namespace RecipeBase_Backend.Application.UseCases.DTO
         public IEnumerable<int> RecipeIds { get; set; }
     }
 
+    public class UpdateUserDto : BaseDto
+    {
+        public string Username { get; set; }
+        public string Email { get; set; }
+        public string FullName { get; set; }
+    }
+
 
 }
 

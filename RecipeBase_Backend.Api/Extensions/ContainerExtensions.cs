@@ -149,6 +149,7 @@ namespace RecipeBase_Backend.Api.Extensions
             #region Validators
             services.AddTransient<RegisterUserValidator>();
             services.AddTransient<UserValidator>();
+            services.AddTransient<UpdateUserValidator>();
             services.AddTransient<CategoryValidator>();
             services.AddTransient<RecipeValidator>();
             //services.AddTransient<DirectionValidator>();

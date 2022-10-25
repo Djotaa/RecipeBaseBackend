@@ -36,7 +36,7 @@ namespace RecipeBase_Backend.Api.Controllers
 
         // PUT api/<UserController>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] UserDto request, [FromServices] IUpdateUser command)
+        public IActionResult Put(int id, [FromBody] UpdateUserDto request, [FromServices] IUpdateUser command)
         {
             request.Id = id;
             this.handler.Handle(command, request);

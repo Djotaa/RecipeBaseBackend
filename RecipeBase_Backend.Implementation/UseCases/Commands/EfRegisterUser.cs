@@ -40,7 +40,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands
 
             var userEntry = this.DbContext.Users.Add(request.Adapt<User>());
 
-            var useCaseIds = new List<int> { 1, 2, 3, 4, 7, 23 };
+            var useCaseIds = new List<int> { 1, 2, 3, 4, 6, 7, 10, 23 };
             for (int id = 15; id <= 21; id++)
                 useCaseIds.Add(id);
 
