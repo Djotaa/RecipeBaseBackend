@@ -34,3 +34,21 @@ C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\De
 C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.pdb
 C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.genruntimeconfig.cache
 C:\Users\Korisnik\Desktop\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\ref\RecipeBase_Backend.DataAccess.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.deps.json
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.runtimeconfig.json
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.runtimeconfig.dev.json
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.DataAccess.pdb
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.Domain.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\bin\Debug\net5.0\RecipeBase_Backend.Domain.pdb
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.csproj.AssemblyReference.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.AssemblyInfoInputs.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.AssemblyInfo.cs
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.csproj.CoreCompileInputs.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.csproj.CopyComplete
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\refint\RecipeBase_Backend.DataAccess.dll
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.pdb
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\RecipeBase_Backend.DataAccess.genruntimeconfig.cache
+E:\Skola\III Godina\III Trimestar\Web Programiranje ASP\RecipeBase_Backend\RecipeBaseBackEnd.DataAccess\obj\Debug\net5.0\ref\RecipeBase_Backend.DataAccess.dll

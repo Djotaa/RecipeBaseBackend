@@ -30,7 +30,7 @@ namespace RecipeBase_Backend.Implementation.UseCases.Commands.Recipes
 
         public string Description => "Users can update their recipes";
 
-        public async void Execute(UpdateRecipeDtoWithImage request)
+        public void Execute(UpdateRecipeDtoWithImage request)
         {
             validator.ValidateAndThrow(request);
 

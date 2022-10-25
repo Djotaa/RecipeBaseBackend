@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {}
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
         "projectName": "RecipeBase_Backend.DataAccess",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\obj\\",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               }
             }
           }
@@ -84,25 +79,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
         "projectName": "RecipeBase_Backend.Domain",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\obj\\",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -110,7 +101,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,25 +134,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
         "projectName": "RecipeBase_Backend.Application",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\obj\\",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -170,15 +156,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               }
             }
           }
@@ -214,25 +199,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
+    "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "projectUniqueName": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
         "projectName": "RecipeBase_Backend.Implementation",
-        "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\obj\\",
+        "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\RecipeBase_Backend.Implementation.csproj",
+        "packagesPath": "C:\\Users\\Djord\\.nuget\\packages\\",
+        "outputPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Implementation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\Djord\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -240,21 +221,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackEnd.DataAccess\\RecipeBase_Backend.DataAccess.csproj"
               },
-              "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBaseBackend.Domain\\RecipeBase_Backend.Domain.csproj"
               },
-              "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
-                "projectPath": "C:\\Users\\Korisnik\\Desktop\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
+              "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj": {
+                "projectPath": "E:\\Skola\\III Godina\\III Trimestar\\Web Programiranje ASP\\RecipeBase_Backend\\RecipeBase_Backend.Application\\RecipeBase_Backend.Application.csproj"
               }
             }
           }
@@ -302,7 +282,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

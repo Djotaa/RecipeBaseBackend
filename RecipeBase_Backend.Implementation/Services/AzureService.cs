@@ -39,11 +39,11 @@ namespace RecipeBase_Backend.Implementation.Services
             return blob.Uri.ToString();
         }
 
-        public async void Delete(string fileName)
+        public void Delete(string fileName)
         {
             var container = new BlobContainerClient(_storageConnectionString, _containerName);
             var blob = container.GetBlobClient($"recipebase/{fileName}");
-            await blob.DeleteIfExistsAsync();
+            blob.DeleteIfExists();
         }
     }
 }
